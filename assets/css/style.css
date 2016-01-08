@@ -1,3 +1,6 @@
+body{
+  font-family: ;
+}
 .primary-text{
   color:#519872;
 }
@@ -9,4 +12,33 @@
 }
 .secondary-background{
   background-color:#ffffff;
+}
+header {
+  border-bottom: 1px solid black;
+  padding: 10px;
+}
+header ul {
+ list-style-type: none;
+ padding: 0; 
+}
+header ul li {
+  display: inline-block;
+  margin: 10px 0;
+}
+header ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  padding-right: 10px;
+}
+.links {
+  float: right;
+}
+.austin {
+
+}
+.sanfran {
+  
+}
+footer {
+  height: 60px;
 }
