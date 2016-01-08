@@ -1,6 +1,10 @@
-body{
-  font-family: ;
-}
+html { 
+  background-image: url(assets/images/background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+} 
 .primary-text{
   color:#519872;
 }
@@ -27,18 +31,38 @@ header ul li {
 }
 header ul li a {
   text-decoration: none;
-  color: #ffffff;
   padding-right: 10px;
 }
 .links {
   float: right;
 }
-.austin {
-
-}
-.sanfran {
-  
+h1 {
+  text-align: center;
 }
 footer {
-  height: 60px;
+  height: 400px;
+}
+.austin {
+  float: left;
+  padding: 100px;
+  padding-left: 250px;
+  text-align: center;
+  margin: auto; 
+}
+.sanfran {
+  float: right;
+  padding: 100px;
+  padding-right: 250px;
+  text-align: center;
+  margin: auto; 
+  border-left: 1px solid white;
+}
+span {
+  text-align: center;
+}
+.icon {
+  padding-top: 20px;
+  clear: both;
+  text-align: center;
+  border-top: 1px solid white;
 }
