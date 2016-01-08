@@ -32,12 +32,18 @@ header ul li {
 header ul li a {
   text-decoration: none;
   padding-right: 10px;
+  color:#ffffff;
 }
 .links {
   float: right;
 }
-h1 {
+.text-center {
   text-align: center;
+}
+.button {
+  text-decoration: none;
+  padding: 10px;
+  color:#ffffff;
 }
 footer {
   height: 400px;
