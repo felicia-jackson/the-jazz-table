@@ -1,10 +1,6 @@
-html { 
-  background-image: url(assets/images/background.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-} 
+body {
+  font-family: sans-serif;
+}
 .primary-text{
   color:#519872;
 }
@@ -43,32 +39,34 @@ header ul li a {
 .button {
   text-decoration: none;
   padding: 10px;
-  color:#ffffff;
+  background-color:#ffffff;
+  color: #519872;
+}
+.inline {
+  display:inline-block;
+  padding: 50px;
 }
 footer {
-  height: 400px;
+  height: 410px;
 }
 .austin {
   float: left;
-  padding: 100px;
-  padding-left: 250px;
+  padding: 20px;
+  padding-left: 350px;
   text-align: center;
   margin: auto; 
 }
 .sanfran {
-  float: right;
-  padding: 100px;
-  padding-right: 250px;
-  text-align: center;
-  margin: auto; 
+  float: left;
+  padding: 20px;
+  padding-right: 30px;
+  text-align: center; 
   border-left: 1px solid white;
 }
 span {
   text-align: center;
 }
 .icon {
-  padding-top: 20px;
   clear: both;
-  text-align: center;
-  border-top: 1px solid white;
-}
+
+  }
